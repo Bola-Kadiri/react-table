@@ -1,0 +1,22 @@
+.nav-link{
+    width: 100%;
+    padding: 30px 0px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.links{
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-link p{
+    color: #fff;
+}
+.links li, a{
+    text-decoration: none;
+    list-style: none;
+    color: #fff;
+}
