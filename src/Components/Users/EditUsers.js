@@ -11,9 +11,7 @@ const EditUsers=()=>{
         username: '',
         email: ''
     });
-    useEffect(()=>{
-      loadUser()
-    }, [])
+   
 
     const {name, username, email} =user
     const  onInputChange = e=>{
@@ -24,10 +22,14 @@ const EditUsers=()=>{
         await axios.patch(`http://localhost:3004/users/${id}`, user)
         history.push('/')
     }
-    const loadUser=async ()=>{
-      const result = await axios.get(`http://localhost:3004/users/${id}`)
-      setUser(result.data)
-    }
+   
+    useEffect(()=>{
+      const loadUser=async ()=>{
+        const result = await axios.get(`http://localhost:3004/users/${id}`)
+        setUser(result.data)
+      };
+      loadUser()
+    }, [id])
     return(
         <div className='container'>
         <div className='w-75 mx-auto shaow p-5'>

@@ -1,28 +1,3 @@
 {
-  "users": [
-    {
-      "name": "vnjnvnnb",
-      "username": "n nnnv",
-      "email": "bolajimoh25@gmail.com",
-      "id": 9
-    },
-    {
-      "name": "vnjnvnnb",
-      "username": "n nnnv",
-      "email": "bolajimoh25@gmail.com",
-      "id": 10
-    },
-    {
-      "name": "vnjnvnnb",
-      "username": "n nnnv",
-      "email": "bolajimoh25@gmail.com",
-      "id": 11
-    },
-    {
-      "name": "vnjnvnnb",
-      "username": "n nnnv",
-      "email": "bolajimoh25@gmail.com",
-      "id": 12
-    }
-  ]
+  "users": []
 }

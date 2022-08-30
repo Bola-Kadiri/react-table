@@ -25,10 +25,7 @@ import {HashRouter, Routes, Route} from 'react-router-dom';
 export const App = () => {
   return (
     <HashRouter>
-      
-      
-        
-        
+  
           <Navbar/>
       
       <div clssName='sub-all'>
